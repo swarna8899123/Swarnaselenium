@@ -1,0 +1,20 @@
+{
+  "name": "auto",
+  "version": "1.0.0",
+  "description": "automation-scripts",
+  "main": "index.js",
+  "directories": {
+    "test":"test"
+  },
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "author": "swarna",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "chromedriver": "^2.46.0",
+    "mocha": "^5.2.0",
+    "nightwatch": "^1.0.19"
+  }
+}
